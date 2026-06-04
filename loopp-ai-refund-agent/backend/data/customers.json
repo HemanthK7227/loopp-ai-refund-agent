@@ -1,0 +1,477 @@
+{
+  "customers": [
+    {
+      "id": "C1001",
+      "name": "Maya Chen",
+      "email": "maya.chen@example.com",
+      "tier": "Gold",
+      "account_status": "active",
+      "return_count_90d": 1,
+      "risk_notes": null,
+      "orders": [
+        {
+          "id": "ORD-1001",
+          "status": "delivered",
+          "purchased_at": "2026-05-14",
+          "delivered_at": "2026-05-18",
+          "total": 129.99,
+          "currency": "USD",
+          "refund_status": "none",
+          "carrier_status": "delivered",
+          "items": [
+            {
+              "sku": "RUN-042",
+              "name": "AeroRun Sneakers",
+              "quantity": 1,
+              "unit_price": 129.99,
+              "category": "Footwear",
+              "tags": ["physical"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C1002",
+      "name": "Oliver Smith",
+      "email": "oliver.smith@example.com",
+      "tier": "Silver",
+      "account_status": "active",
+      "return_count_90d": 0,
+      "risk_notes": null,
+      "orders": [
+        {
+          "id": "ORD-1002",
+          "status": "delivered",
+          "purchased_at": "2026-05-15",
+          "delivered_at": "2026-05-20",
+          "total": 74.5,
+          "currency": "USD",
+          "refund_status": "none",
+          "carrier_status": "delivered",
+          "items": [
+            {
+              "sku": "CLR-210",
+              "name": "Clearance Windbreaker",
+              "quantity": 1,
+              "unit_price": 74.5,
+              "category": "Apparel",
+              "final_sale": true,
+              "tags": ["physical", "clearance"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C1003",
+      "name": "Priya Patel",
+      "email": "priya.patel@example.com",
+      "tier": "Platinum",
+      "account_status": "active",
+      "return_count_90d": 0,
+      "risk_notes": null,
+      "orders": [
+        {
+          "id": "ORD-1003",
+          "status": "delivered",
+          "purchased_at": "2026-05-17",
+          "delivered_at": "2026-05-22",
+          "total": 749.0,
+          "currency": "USD",
+          "refund_status": "none",
+          "carrier_status": "delivered",
+          "items": [
+            {
+              "sku": "KIT-900",
+              "name": "Barista Pro Espresso Machine",
+              "quantity": 1,
+              "unit_price": 749.0,
+              "category": "Kitchen",
+              "tags": ["physical", "high-value"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C1004",
+      "name": "Jamal Wright",
+      "email": "jamal.wright@example.com",
+      "tier": "Bronze",
+      "account_status": "active",
+      "return_count_90d": 1,
+      "risk_notes": null,
+      "orders": [
+        {
+          "id": "ORD-1004",
+          "status": "delivered",
+          "purchased_at": "2026-05-19",
+          "delivered_at": "2026-05-19",
+          "total": 89.0,
+          "currency": "USD",
+          "refund_status": "none",
+          "carrier_status": "delivered",
+          "items": [
+            {
+              "sku": "DIG-510",
+              "name": "Advanced Photo Editing Course",
+              "quantity": 1,
+              "unit_price": 89.0,
+              "category": "Digital",
+              "digital": true,
+              "license_redeemed": true,
+              "tags": ["digital", "redeemed"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C1005",
+      "name": "Sofia Alvarez",
+      "email": "sofia.alvarez@example.com",
+      "tier": "Gold",
+      "account_status": "active",
+      "return_count_90d": 2,
+      "risk_notes": null,
+      "orders": [
+        {
+          "id": "ORD-1005",
+          "status": "delivered",
+          "purchased_at": "2026-05-23",
+          "delivered_at": "2026-05-26",
+          "total": 64.99,
+          "currency": "USD",
+          "refund_status": "none",
+          "carrier_status": "delivered",
+          "items": [
+            {
+              "sku": "HOM-118",
+              "name": "Ceramic Table Lamp",
+              "quantity": 1,
+              "unit_price": 64.99,
+              "category": "Home",
+              "tags": ["physical", "fragile"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C1006",
+      "name": "Noah Kim",
+      "email": "noah.kim@example.com",
+      "tier": "Silver",
+      "account_status": "active",
+      "return_count_90d": 0,
+      "risk_notes": null,
+      "orders": [
+        {
+          "id": "ORD-1006",
+          "status": "delivered",
+          "purchased_at": "2026-05-21",
+          "delivered_at": "2026-05-25",
+          "total": 42.0,
+          "currency": "USD",
+          "refund_status": "none",
+          "carrier_status": "delivered",
+          "items": [
+            {
+              "sku": "FOOD-071",
+              "name": "Single-Origin Coffee Beans",
+              "quantity": 2,
+              "unit_price": 21.0,
+              "category": "Grocery",
+              "consumable": true,
+              "tags": ["physical", "consumable"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C1007",
+      "name": "Asha Nair",
+      "email": "asha.nair@example.com",
+      "tier": "Bronze",
+      "account_status": "active",
+      "return_count_90d": 0,
+      "risk_notes": null,
+      "orders": [
+        {
+          "id": "ORD-1007",
+          "status": "delivered",
+          "purchased_at": "2026-03-04",
+          "delivered_at": "2026-03-12",
+          "total": 58.0,
+          "currency": "USD",
+          "refund_status": "none",
+          "carrier_status": "delivered",
+          "items": [
+            {
+              "sku": "FIT-330",
+              "name": "Yoga Block Set",
+              "quantity": 1,
+              "unit_price": 58.0,
+              "category": "Fitness",
+              "tags": ["physical"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C1008",
+      "name": "Ethan Brooks",
+      "email": "ethan.brooks@example.com",
+      "tier": "Gold",
+      "account_status": "active",
+      "return_count_90d": 1,
+      "risk_notes": null,
+      "orders": [
+        {
+          "id": "ORD-1008",
+          "status": "delivered",
+          "purchased_at": "2026-05-21",
+          "delivered_at": "2026-05-21",
+          "total": 29.0,
+          "currency": "USD",
+          "refund_status": "none",
+          "carrier_status": "delivered",
+          "items": [
+            {
+              "sku": "DIG-203",
+              "name": "Invoice Template Pack",
+              "quantity": 1,
+              "unit_price": 29.0,
+              "category": "Digital",
+              "digital": true,
+              "license_redeemed": false,
+              "tags": ["digital", "unredeemed"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C1009",
+      "name": "Lina Garcia",
+      "email": "lina.garcia@example.com",
+      "tier": "Silver",
+      "account_status": "active",
+      "return_count_90d": 2,
+      "risk_notes": null,
+      "orders": [
+        {
+          "id": "ORD-1009",
+          "status": "delivered",
+          "purchased_at": "2026-05-06",
+          "delivered_at": "2026-05-09",
+          "total": 119.0,
+          "currency": "USD",
+          "refund_status": "refunded",
+          "carrier_status": "delivered",
+          "items": [
+            {
+              "sku": "AUD-440",
+              "name": "Noise-Canceling Headphones",
+              "quantity": 1,
+              "unit_price": 119.0,
+              "category": "Electronics",
+              "tags": ["physical"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C1010",
+      "name": "Marcus Johnson",
+      "email": "marcus.johnson@example.com",
+      "tier": "Bronze",
+      "account_status": "active",
+      "return_count_90d": 0,
+      "risk_notes": null,
+      "orders": [
+        {
+          "id": "ORD-1010",
+          "status": "in_transit",
+          "purchased_at": "2026-05-24",
+          "delivered_at": null,
+          "total": 215.0,
+          "currency": "USD",
+          "refund_status": "none",
+          "carrier_status": "delayed",
+          "items": [
+            {
+              "sku": "TRV-620",
+              "name": "Carry-On Spinner Suitcase",
+              "quantity": 1,
+              "unit_price": 215.0,
+              "category": "Travel",
+              "tags": ["physical"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C1011",
+      "name": "Grace Lee",
+      "email": "grace.lee@example.com",
+      "tier": "Gold",
+      "account_status": "active",
+      "return_count_90d": 0,
+      "risk_notes": null,
+      "orders": [
+        {
+          "id": "ORD-1011",
+          "status": "delivered",
+          "purchased_at": "2026-05-15",
+          "delivered_at": "2026-05-15",
+          "total": 100.0,
+          "currency": "USD",
+          "refund_status": "none",
+          "carrier_status": "delivered",
+          "items": [
+            {
+              "sku": "GFT-100",
+              "name": "Loopp Gift Card",
+              "quantity": 1,
+              "unit_price": 100.0,
+              "category": "Gift Card",
+              "gift_card": true,
+              "tags": ["digital", "gift-card"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C1012",
+      "name": "Theo Martin",
+      "email": "theo.martin@example.com",
+      "tier": "Silver",
+      "account_status": "active",
+      "return_count_90d": 0,
+      "risk_notes": null,
+      "orders": [
+        {
+          "id": "ORD-1012",
+          "status": "delivered",
+          "purchased_at": "2026-05-08",
+          "delivered_at": "2026-05-12",
+          "total": 86.0,
+          "currency": "USD",
+          "refund_status": "none",
+          "carrier_status": "delivered",
+          "items": [
+            {
+              "sku": "APP-805",
+              "name": "Merino Crew Sweater",
+              "quantity": 1,
+              "unit_price": 86.0,
+              "category": "Apparel",
+              "tags": ["physical"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C1013",
+      "name": "Hana Suzuki",
+      "email": "hana.suzuki@example.com",
+      "tier": "Platinum",
+      "account_status": "active",
+      "return_count_90d": 5,
+      "risk_notes": "High return velocity in the last 90 days.",
+      "orders": [
+        {
+          "id": "ORD-1013",
+          "status": "delivered",
+          "purchased_at": "2026-05-20",
+          "delivered_at": "2026-05-23",
+          "total": 138.0,
+          "currency": "USD",
+          "refund_status": "none",
+          "carrier_status": "delivered",
+          "items": [
+            {
+              "sku": "BEA-222",
+              "name": "Vitamin C Serum Set",
+              "quantity": 1,
+              "unit_price": 138.0,
+              "category": "Beauty",
+              "tags": ["physical"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C1014",
+      "name": "Benjamin Carter",
+      "email": "benjamin.carter@example.com",
+      "tier": "Gold",
+      "account_status": "active",
+      "return_count_90d": 1,
+      "risk_notes": null,
+      "orders": [
+        {
+          "id": "ORD-1014",
+          "status": "delivered",
+          "purchased_at": "2026-05-22",
+          "delivered_at": "2026-05-27",
+          "total": 52.0,
+          "currency": "USD",
+          "refund_status": "none",
+          "carrier_status": "delivered",
+          "items": [
+            {
+              "sku": "PET-312",
+              "name": "Stainless Pet Bowl Set",
+              "quantity": 1,
+              "unit_price": 52.0,
+              "category": "Pets",
+              "tags": ["physical"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C1015",
+      "name": "Elena Rossi",
+      "email": "elena.rossi@example.com",
+      "tier": "Bronze",
+      "account_status": "chargeback_review",
+      "return_count_90d": 2,
+      "risk_notes": "Open chargeback on a previous purchase.",
+      "orders": [
+        {
+          "id": "ORD-1015",
+          "status": "delivered",
+          "purchased_at": "2026-05-18",
+          "delivered_at": "2026-05-24",
+          "total": 179.0,
+          "currency": "USD",
+          "refund_status": "none",
+          "carrier_status": "delivered",
+          "items": [
+            {
+              "sku": "DEC-707",
+              "name": "Framed Wall Print",
+              "quantity": 1,
+              "unit_price": 179.0,
+              "category": "Decor",
+              "tags": ["physical"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

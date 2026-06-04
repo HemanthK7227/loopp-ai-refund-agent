@@ -1,0 +1,15 @@
+.env
+*.pyc
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+.venv/
+dist/
+build/
+backend/runtime/
+artifacts/
+*.db
+.DS_Store
+npm-debug.log*
